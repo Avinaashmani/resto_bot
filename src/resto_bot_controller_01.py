@@ -14,11 +14,11 @@ class RestoBotController:
         rospy.loginfo_once("Resto Bot Controller Has Begun")
 
         self.locations = {
-            "home": (-2.0, -1.5, 0.025, 1.0),
-            "kitchen": (-1.3, -0.5, -0.03, 1.0),
-            "table_1": (-0.6, 0.6, 0.0038, 1.0),
-            "table_2": (0.5, 0.6, -0.06, 1.0),
-            "table_3": (0.6, 2.0, 1.0, 0.003)
+            "home": (1.52, 1.40, 1.0, 0.032),
+            "kitchen": (1.5, -1.3, 1.0, 0.055),
+            "table_1": (-0.7, 0.9, 0.90, 0.41),
+            "table_2": (0.0, 0.0, 0.0, 1.0),
+            "table_3": (-0.67, -0.67, 0.93, -0.35)
         }
 
         self.order_list = []
